@@ -28,6 +28,13 @@ func main(){
 	const PI = 3.14
 	fmt.Println(PI)
 
+	const(
+		port = 8080
+		host = "localhost"
+	)
+
+	fmt.Println(port)
+	fmt.Println(host)
 
 // 	The zero value is:
 
