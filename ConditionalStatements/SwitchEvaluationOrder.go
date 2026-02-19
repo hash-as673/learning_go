@@ -5,18 +5,18 @@ import (
 	"time"
 )
 
-func main(){
-	fmt.Println(" When's Saturday?")
+func main() {
+	fmt.Println(" When is saturday?")
 	today := time.Now().Weekday()
-	// fmt.Println(today)
 	switch time.Saturday {
 	case today + 0:
 		fmt.Println("Today")
 	case today + 1:
 		fmt.Println("Tomorrow")
 	case today + 2:
-		fmt.Println("Day after Tomorrow")
+		fmt.Println("In Two Days")
 	default:
 		fmt.Println("After some days")
+
 	}
 }

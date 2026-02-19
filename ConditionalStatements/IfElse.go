@@ -1,13 +1,13 @@
-package main
+package main;
 
 import "fmt"
 
 func main(){
-	a := 10
-	if a % 2 == 0 {
-		fmt.Println("Even")
-	} else {
-		fmt.Println("Odd")
+	age := 23
+	if age>18 {
+		fmt.Println("Adult")
+		} else {
+			
+			fmt.Println("Minor")
 	}
-
 }
