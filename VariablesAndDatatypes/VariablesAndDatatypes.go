@@ -1,25 +1,32 @@
-package main
+package main;
 
-import "fmt";
-
-var c, python, java bool
-
-var h , j int = 1, 2
-
+import "fmt"
 
 func main(){
-	fmt.Println(c,python,java)
-	fmt.Println(h,j)
-	
-	k:= 3 
-	fmt.Println(k)
-	
-	var i int = 10
-	var s string = "Hello World"
-	var f float32 = 3.14
-	var cn complex128 = 2 + 5i
-	fmt.Println(i,s,f,cn)
+	var i int = 45
+	var f float64 = float64(i)
+	var u uint = uint(f)
+	var c,python,java = true, false, true
+	var b byte = 10
+	var cn complex64 = 10+5i;
 
+	fmt.Println(i)
+	fmt.Println(f)
+	fmt.Println(b)
+	fmt.Println(cn)
+	fmt.Println(u)
+	fmt.Println(c,python,java)
+
+
+	// Variable Short form
+	j := 10
+	s := "Hello World"
+	fmt.Println(j,s)
+
+	const (
+		port=8080
+		host="localhost"
+	)
 
 
 }
