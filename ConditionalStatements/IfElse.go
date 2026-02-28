@@ -1,11 +1,9 @@
-package main
+package main;
 
 import "fmt"
 
-func main() {
-	x := 23
-
-	if x%2 == 0 {
+func main(){
+	if x:=2 ; x%2==0{
 		fmt.Println("Even")
 	} else {
 		fmt.Println("Odd")

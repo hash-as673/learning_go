@@ -2,11 +2,12 @@ package main;
 
 import "fmt"
 
-func swap (x,y int) (int, int){
-	return y,x
+func swap(x , y string) (string, string){
+	return y,x;
 }
 
 func main(){
-	a, b := swap(10,20)
-	fmt.Println(a,b)
+	 a := "Hello"
+	 b := "World"
+	 fmt.Println(swap(a,b))
 }

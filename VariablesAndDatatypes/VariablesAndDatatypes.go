@@ -3,30 +3,22 @@ package main;
 import "fmt"
 
 func main(){
-	var i int = 45
-	var f float64 = float64(i)
-	var u uint = uint(f)
-	var c,python,java = true, false, true
-	var b byte = 10
-	var cn complex64 = 10+5i;
-
+	var greeting string = "Hello World"
+	i := 34 
+	f := 3.14
+	b := true
+	c := 3 + 4i
+	fmt.Println(greeting)
 	fmt.Println(i)
 	fmt.Println(f)
 	fmt.Println(b)
-	fmt.Println(cn)
-	fmt.Println(u)
-	fmt.Println(c,python,java)
+	fmt.Println(c)
 
-
-	// Variable Short form
-	j := 10
-	s := "Hello World"
-	fmt.Println(j,s)
-
-	const (
-		port=8080
-		host="localhost"
+	const(
+		port = 8080
+		host = "localhost"
 	)
 
-
+	fmt.Println(port)
+	fmt.Println(host)
 }

@@ -3,20 +3,15 @@ package main;
 import "fmt"
 
 func main(){
-	rating := 4
-	
-	switch rating {
+	i:=4
+	switch(i){
 	case 1:
-		fmt.Println("Bad")
+		fmt.Println("One")
 	case 2:
-		fmt.Println("Average")
-	case 3: 
-		fmt.Println("Great")
-	case 4:
-		fmt.Println("Excellent")
-	case 5:
-		fmt.Println("Outstanding")
+		fmt.Println("two")
+	case 3:
+		fmt.Println("Three")
 	default:
-		fmt.Println("Invalid Rating")
-	}
+		fmt.Println("Some other number")
+	} 
 }
